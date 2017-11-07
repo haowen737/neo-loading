@@ -1,0 +1,11 @@
+{
+  "name": "neo-loading",
+  "version": "1.0.0",
+  "description": "A loading component for vue🤔",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Haowen <haowen737@gmail.com>",
+  "license": "ISC"
+}
