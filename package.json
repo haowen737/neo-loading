@@ -1,11 +1,20 @@
 {
   "name": "neo-loading",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A loading component for vue🤔",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:haowen737/neo-loading.git"
   },
   "author": "Haowen <haowen737@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
 }
