@@ -1,5 +1,5 @@
 import neoLoadingTemplate from './main.vue'
-let $vm
+let $vm = null
 export default {
   install (Vue, options = {}) {
     if (!$vm) {
